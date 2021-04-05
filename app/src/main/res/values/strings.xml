@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">PredictLive</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+
+    <string name="remmember_me">Remmember me? </string>
+    <string name="login">Login</string>
+    <string name="forgot_your_password">Forgot Your Password?</string>
+    <string name="do_not_have_a_account">Do not have a account?</string>
+    <string name="crate_one">Crate One</string>
+    <string name="l">L</string>
+    <string name="live_predict">Live Predict</string>
 </resources>
