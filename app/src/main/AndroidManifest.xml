@@ -11,7 +11,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PredictLive"
         tools:ignore="AllowBackup">
-        <activity android:name=".LoginProfileActivity"></activity>
+        <activity android:name=".SuccessRegisterActivity"></activity>
+        <activity android:name=".LoginProfileActivity" />
         <activity android:name=".ValidateCodeActivity" />
         <activity android:name=".NumberActivity" />
         <activity android:name=".LoginActivity">

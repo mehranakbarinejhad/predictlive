@@ -9,11 +9,13 @@
       <w>forgotpassword</w>
       <w>iranflag</w>
       <w>loginaccounttext</w>
+      <w>loginactivity</w>
       <w>loginbutton</w>
       <w>loginclick</w>
       <w>logingradint</w>
       <w>loginlogo</w>
       <w>loginlogoprofile</w>
+      <w>loginprofile</w>
       <w>loginprofileactivity</w>
       <w>loginprofileshape</w>
       <w>loginswitchshape</w>
@@ -32,9 +34,12 @@
       <w>remmemberme</w>
       <w>resendcodeclick</w>
       <w>simsun</w>
+      <w>successactivity</w>
+      <w>successtext</w>
       <w>swch</w>
       <w>validateactivity</w>
       <w>viewlogo</w>
+      <w>zoomout</w>
     </words>
   </dictionary>
 </component>
