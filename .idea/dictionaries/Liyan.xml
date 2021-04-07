@@ -1,15 +1,40 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Liyan">
     <words>
+      <w>andalus</w>
+      <w>createaccountclick</w>
       <w>createaccounttext</w>
+      <w>edittextborder</w>
+      <w>entercodetext</w>
+      <w>forgotpassword</w>
+      <w>iranflag</w>
+      <w>loginaccounttext</w>
       <w>loginbutton</w>
+      <w>loginclick</w>
       <w>logingradint</w>
       <w>loginlogo</w>
+      <w>loginlogoprofile</w>
+      <w>loginprofileactivity</w>
+      <w>loginprofileshape</w>
       <w>loginswitchshape</w>
       <w>loginswitchthumb</w>
       <w>loginswitchtrack</w>
+      <w>namelogo</w>
+      <w>numberactivity</w>
+      <w>numberfi</w>
+      <w>numberfive</w>
+      <w>numberfor</w>
+      <w>numberone</w>
+      <w>numberthree</w>
+      <w>numbertwo</w>
       <w>predictlive</w>
       <w>remmember</w>
+      <w>remmemberme</w>
+      <w>resendcodeclick</w>
+      <w>simsun</w>
+      <w>swch</w>
+      <w>validateactivity</w>
+      <w>viewlogo</w>
     </words>
   </dictionary>
 </component>

@@ -7,7 +7,18 @@
     <string name="login">Login</string>
     <string name="forgot_your_password">Forgot Your Password?</string>
     <string name="do_not_have_a_account">Do not have a account?</string>
-    <string name="crate_one">Crate One</string>
+    <string name="create_one">Create One</string>
     <string name="l">L</string>
     <string name="live_predict">Live Predict</string>
+    <string name="next">Next</string>
+    <string name="do_have_an_account">Do have an account?</string>
+    <string name="_98">+98</string>
+    <string name="todo">TODO</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="did_not_the_code">Did Not The Code?</string>
+    <string name="resend_code">Resend Code</string>
+    <string name="we_sent_a_code_via_sms_to_number_09184591468_please_enter_it">We sent a code via Sms to number 09184591468,please enter it</string>
+    <string name="name">Name</string>
+    <string name="confirm">Confirm</string>
+    <string name="register">Register</string>
 </resources>

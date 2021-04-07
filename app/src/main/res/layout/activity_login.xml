@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
     android:background="@drawable/logingradint"
     tools:context=".LoginActivity">
 
@@ -29,7 +28,8 @@
               android:layout_height="wrap_content"
               android:textColor="#FFF"
               android:text="@string/l"
-              android:layout_marginTop="20sp"
+                android:fontFamily="@font/simsun"
+              android:layout_marginTop="35sp"
               android:layout_gravity="center_horizontal"
               android:textSize="90sp"
               />
@@ -41,6 +41,7 @@
           android:layout_height="wrap_content"
           android:text="@string/live_predict"
           android:textSize="22sp"
+          android:fontFamily="@font/andalus"
          android:layout_marginTop="2dp"
           android:layout_gravity="center_horizontal|center_vertical"
           android:textColor="#C6CBD4"/>
@@ -48,7 +49,7 @@
     <LinearLayout
       android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="4"
+        android:layout_weight="5"
         android:orientation="vertical"
         android:gravity="center"
         >
@@ -56,19 +57,28 @@
 
 
     <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edt_username"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="text"
+        android:imeOptions="actionDone"
+        android:backgroundTint="#5E6A7B"
         android:hint="@string/username"
         android:drawablePadding="12dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
         android:drawableStart="@drawable/ic_username"
         style="@style/myEditText"
-        /> <androidx.appcompat.widget.AppCompatEditText
+        />
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edt_password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:inputType="textPassword"
+            android:imeOptions="actionDone"
         android:hint="@string/password"
         android:drawablePadding="12dp"
+        android:backgroundTint="#5E6A7B"
         android:drawableStart="@drawable/ic_password"
     android:layout_marginStart="10dp"
     android:layout_marginEnd="10dp"
@@ -77,6 +87,7 @@
         />
 
     <Switch
+        android:id="@+id/swch_remmemberme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
        android:text="@string/remmember_me"
@@ -93,6 +104,7 @@
         />
 
 <androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/btn_login"
     android:layout_width="match_parent"
     android:layout_height="47dp"
     android:text="@string/login"
@@ -104,41 +116,46 @@
     android:background="@drawable/loginbutton"
     android:textColor="#FFF"/>
     <TextView
+        android:id="@+id/txt_forgotpassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:textColor="#9CA0A7"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/andalus"
         android:text="@string/forgot_your_password"/>
 </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2"
+        android:layout_weight="1"
         android:orientation="vertical">
         <TextView
             android:id="@+id/txt_createaccounttext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="20sp"
-
+                android:fontFamily="@font/andalus"
             android:textColor="#9CA0A7"
             android:layout_marginTop="10dp"
             android:text="@string/do_not_have_a_account"
             android:layout_alignParentBottom="true"
            android:layout_marginStart="30dp"
+            android:layout_marginBottom="5dp"
             />
 
         <TextView
+            android:id="@+id/txt_createaccountclick"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
            android:layout_toEndOf="@id/txt_createaccounttext"
             android:layout_marginTop="10dp"
             android:layout_alignParentBottom="true"
-            android:text="@string/crate_one"
-
+            android:text="@string/create_one"
+            android:layout_marginBottom="5dp"
+            android:fontFamily="@font/andalus"
             android:textColor="#E10D0D"
             android:textSize="20sp" />
     </RelativeLayout>
