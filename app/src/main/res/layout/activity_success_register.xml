@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/logingradint"
 
-    tools:context=".LoginActivity">
+    tools:context=".activity.LoginActivity">
     <View
         android:id="@+id/Viewlogo_successactivity"
         android:layout_width="150dp"

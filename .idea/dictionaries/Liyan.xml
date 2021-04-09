@@ -2,11 +2,17 @@
   <dictionary name="Liyan">
     <words>
       <w>andalus</w>
+      <w>apiservice</w>
       <w>createaccountclick</w>
       <w>createaccounttext</w>
       <w>edittextborder</w>
       <w>entercodetext</w>
+      <w>enteringcode</w>
+      <w>enteringtext</w>
       <w>forgotpassword</w>
+      <w>getcode</w>
+      <w>getdata</w>
+      <w>imgmessage</w>
       <w>iranflag</w>
       <w>loginaccounttext</w>
       <w>loginactivity</w>
@@ -21,6 +27,7 @@
       <w>loginswitchshape</w>
       <w>loginswitchthumb</w>
       <w>loginswitchtrack</w>
+      <w>mehranakbarinejhad</w>
       <w>namelogo</w>
       <w>numberactivity</w>
       <w>numberfi</w>
@@ -29,15 +36,29 @@
       <w>numberone</w>
       <w>numberthree</w>
       <w>numbertwo</w>
+      <w>onerror</w>
+      <w>onssuccess</w>
+      <w>onsuccess</w>
       <w>predictlive</w>
       <w>remmember</w>
       <w>remmemberme</w>
       <w>resendcodeclick</w>
+      <w>returnnumberinput</w>
+      <w>sendcode</w>
+      <w>sendcodesms</w>
+      <w>sendcodetovalidate</w>
+      <w>sendcodetovalidateactivity</w>
+      <w>senddata</w>
+      <w>senddatatoview</w>
+      <w>sendphonenumber</w>
       <w>simsun</w>
+      <w>smscode</w>
       <w>successactivity</w>
       <w>successtext</w>
       <w>swch</w>
+      <w>textcode</w>
       <w>validateactivity</w>
+      <w>validatecode</w>
       <w>viewlogo</w>
       <w>zoomout</w>
     </words>
