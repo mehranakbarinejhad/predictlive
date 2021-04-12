@@ -10,7 +10,9 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
         btn_login.setOnClickListener {
-            ThreadLogin(this,edt_username.text.toString(),edt_password.text.toString()).start()
+            ThreadLogin(this,edt_username.text.toString(),edt_password.text.toString(),btn_login).start()
+
+
         }
         txt_createaccountclick.setOnClickListener {
             val intent=Intent(this,NumberActivity::class.java)

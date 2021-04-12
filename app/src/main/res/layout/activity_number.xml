@@ -74,6 +74,7 @@ android:id="@+id/numberactivity_parent"
                 android:layout_width="52dp"
                 android:layout_height="wrap_content"
                 android:hint="@string/_98"
+                android:enabled="false"
                 style="@style/myEditText"
                 android:backgroundTint="#5E6A7B"
                 android:layout_marginStart="5dp"/>

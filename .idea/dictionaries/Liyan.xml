@@ -3,17 +3,27 @@
     <words>
       <w>andalus</w>
       <w>apiservice</w>
+      <w>befor</w>
+      <w>btnclick</w>
+      <w>completname</w>
       <w>createaccountclick</w>
       <w>createaccounttext</w>
       <w>edittextborder</w>
+      <w>edttext</w>
       <w>entercodetext</w>
       <w>enteringcode</w>
       <w>enteringtext</w>
+      <w>firstedttext</w>
       <w>forgotpassword</w>
       <w>getcode</w>
       <w>getdata</w>
+      <w>getresult</w>
       <w>imgmessage</w>
+      <w>inputtext</w>
+      <w>insertuser</w>
       <w>iranflag</w>
+      <w>lastedttext</w>
+      <w>lenght</w>
       <w>loginaccounttext</w>
       <w>loginactivity</w>
       <w>loginbutton</w>
@@ -28,6 +38,8 @@
       <w>loginswitchthumb</w>
       <w>loginswitchtrack</w>
       <w>mehranakbarinejhad</w>
+      <w>mehranakbariniii</w>
+      <w>mehranmohammadia</w>
       <w>namelogo</w>
       <w>numberactivity</w>
       <w>numberfi</w>
@@ -40,9 +52,12 @@
       <w>onssuccess</w>
       <w>onsuccess</w>
       <w>predictlive</w>
+      <w>registerd</w>
       <w>remmember</w>
       <w>remmemberme</w>
       <w>resendcodeclick</w>
+      <w>resultnumber</w>
+      <w>resultregister</w>
       <w>returnnumberinput</w>
       <w>sendcode</w>
       <w>sendcodesms</w>
@@ -51,6 +66,7 @@
       <w>senddata</w>
       <w>senddatatoview</w>
       <w>sendphonenumber</w>
+      <w>setfocus</w>
       <w>simsun</w>
       <w>smscode</w>
       <w>successactivity</w>
@@ -59,6 +75,9 @@
       <w>textcode</w>
       <w>validateactivity</w>
       <w>validatecode</w>
+      <w>validateinput</w>
+      <w>validatenumber</w>
+      <w>validatephonenumber</w>
       <w>viewlogo</w>
       <w>zoomout</w>
     </words>

@@ -1,5 +1,6 @@
 package com.liyanamarket.predictlive.view.thread.login
 import android.content.Intent
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.liyanamarket.predictlive.R
 import com.liyanamarket.predictlive.activity.MainActivity
@@ -8,7 +9,7 @@ import com.liyanamarket.predictlive.fragment.MessageFragment
 import com.liyanamarket.predictlive.presenter.login.Presenter
 import com.liyanamarket.predictlive.presenter.login.Senddatatoview
 
-class ThreadLogin(val activity:AppCompatActivity, private val username:String, private val password:String):Thread(),Senddatatoview {
+class ThreadLogin(val activity:AppCompatActivity, private val username:String, private val password:String,private val btnclick:Button):Thread(),Senddatatoview {
     override fun run() {
        activity.runOnUiThread {
            if(username.isEmpty())
@@ -18,7 +19,7 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
 
            }
 
-               Presenter(this).getusers("selectuser", username)
+               Presenter(this,btnclick).getusers("selectuser", username)
 
            }
     }

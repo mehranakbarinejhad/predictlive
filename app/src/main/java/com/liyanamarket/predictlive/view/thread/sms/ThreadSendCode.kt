@@ -1,9 +1,8 @@
 package com.liyanamarket.predictlive.view.thread.sms
 
-import android.content.Intent
+
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.liyanamarket.predictlive.activity.ValidateCodeActivity
 import com.liyanamarket.predictlive.dataclass.SmsCode
 import com.liyanamarket.predictlive.presenter.sms.PresenterSmsCode
 import com.liyanamarket.predictlive.presenter.sms.Senddatatoview
