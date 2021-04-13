@@ -1,7 +1,6 @@
 package com.liyanamarket.predictlive.view.thread.validatephonenumber
 
 import android.content.Intent
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.liyanamarket.predictlive.R
 import com.liyanamarket.predictlive.activity.ValidateCodeActivity

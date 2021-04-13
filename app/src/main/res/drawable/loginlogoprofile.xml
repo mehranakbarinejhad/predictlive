@@ -3,5 +3,5 @@
     <size android:width="150dp" android:height="150dp"/>
     <corners android:radius="75dp"/>
     <solid android:color="#546F9C"/>
-    <stroke android:color="#111" android:width="2dp" android:dashWidth="20dp" android:dashGap="@dimen/cardview_default_elevation"/>
+    <stroke android:color="#111" android:width="2dp" android:dashWidth="20dp" android:dashGap="2dp"/>
 </shape>

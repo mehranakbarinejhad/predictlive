@@ -1,20 +1,13 @@
 package com.liyanamarket.predictlive.fragment
-
-import android.media.Image
 import android.os.Bundle
-import android.os.Message
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.Window
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
-import android.widget.Toast
 import androidx.fragment.app.DialogFragment
-
 import com.liyanamarket.predictlive.R
-
 class MessageFragment(private var message: String,private var iconmessage:Int):DialogFragment() {
     lateinit var btnok:Button
     lateinit var txtmessage:TextView

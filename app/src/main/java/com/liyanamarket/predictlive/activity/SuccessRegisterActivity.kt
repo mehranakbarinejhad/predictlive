@@ -3,7 +3,6 @@ package com.liyanamarket.predictlive.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import com.liyanamarket.predictlive.R
 
 class SuccessRegisterActivity : AppCompatActivity() {

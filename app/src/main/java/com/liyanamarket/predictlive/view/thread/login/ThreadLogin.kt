@@ -2,7 +2,7 @@ package com.liyanamarket.predictlive.view.thread.login
 import android.content.Intent
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.liyanamarket.predictlive.HomeActivity
+import com.liyanamarket.predictlive.activity.HomeActivity
 import com.liyanamarket.predictlive.R
 import com.liyanamarket.predictlive.dataclass.Users
 import com.liyanamarket.predictlive.fragment.MessageFragment
@@ -36,7 +36,7 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
 
             if(password==user[0].password)
             {
-                val intent=Intent(activity,HomeActivity::class.java)
+                val intent=Intent(activity, HomeActivity::class.java)
                 activity.startActivity(intent)
                 activity.finishAffinity()
             }

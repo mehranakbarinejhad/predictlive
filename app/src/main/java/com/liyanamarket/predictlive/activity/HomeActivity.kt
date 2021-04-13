@@ -1,10 +1,12 @@
-package com.liyanamarket.predictlive
+package com.liyanamarket.predictlive.activity
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
 import androidx.fragment.app.Fragment
+import com.liyanamarket.predictlive.R
 import com.liyanamarket.predictlive.fragment.HomeFragment
+import com.liyanamarket.predictlive.fragment.RankingFragment
 import kotlinx.android.synthetic.main.activity_home.*
 
 class HomeActivity : AppCompatActivity() {
@@ -16,12 +18,18 @@ class HomeActivity : AppCompatActivity() {
          bottomnavigationview.setOnNavigationItemSelectedListener {
             when(it.itemId)
             {
-             R.id.mnuhome-> {addfragment(HomeFragment())
+             R.id.mnuhome -> {addfragment(HomeFragment())
              return@setOnNavigationItemSelectedListener true }
-                R.id.mnushop-> {addfragment(HomeFragment())
+                R.id.mnushop -> {addfragment(HomeFragment())
              return@setOnNavigationItemSelectedListener true }
+                R.id.mnurank ->{addfragment(RankingFragment())
+                return@setOnNavigationItemSelectedListener true}
             }
             false
+        }
+        fab.setOnClickListener {
+            val intent=Intent(this, PredictActivity::class.java)
+            startActivity(intent)
         }
 
     }

@@ -10,6 +10,7 @@
       <w>bottomnavigationbackground</w>
       <w>bottomnavigationview</w>
       <w>btnclick</w>
+      <w>cardview</w>
       <w>completname</w>
       <w>createaccountclick</w>
       <w>createaccounttext</w>
@@ -19,11 +20,13 @@
       <w>enteringcode</w>
       <w>enteringtext</w>
       <w>firstedttext</w>
+      <w>firstranking</w>
       <w>floatingactionbutton</w>
       <w>forgotpassword</w>
       <w>getcode</w>
       <w>getdata</w>
       <w>getresult</w>
+      <w>gradintpredictlistitem</w>
       <w>gradintscoreandrank</w>
       <w>homeactionbar</w>
       <w>homeactivity</w>
@@ -36,6 +39,7 @@
       <w>iranflag</w>
       <w>lastedttext</w>
       <w>lenght</w>
+      <w>linearoneranking</w>
       <w>loginaccounttext</w>
       <w>loginactivity</w>
       <w>loginbutton</w>
@@ -58,6 +62,7 @@
       <w>mnusetting</w>
       <w>mnushop</w>
       <w>namelogo</w>
+      <w>nawal</w>
       <w>numberactivity</w>
       <w>numberfi</w>
       <w>numberfive</w>
@@ -65,11 +70,17 @@
       <w>numberone</w>
       <w>numberthree</w>
       <w>numbertwo</w>
+      <w>oneranking</w>
       <w>onerror</w>
       <w>onssuccess</w>
       <w>onsuccess</w>
+      <w>predictedittextshape</w>
+      <w>predictitembuttonshape</w>
       <w>predictlive</w>
+      <w>rankinglistbackground</w>
+      <w>rankingshape</w>
       <w>rankshape</w>
+      <w>recyclerranking</w>
       <w>registerd</w>
       <w>remmember</w>
       <w>remmemberme</w>
@@ -78,6 +89,7 @@
       <w>resultregister</w>
       <w>returnnumberinput</w>
       <w>scoreshape</w>
+      <w>scoretextviewshape</w>
       <w>sectiononehomegradint</w>
       <w>sectiontwohomegradint</w>
       <w>sendcode</w>
@@ -98,6 +110,8 @@
       <w>tabbuttonselected</w>
       <w>tabview</w>
       <w>textcode</w>
+      <w>treeranking</w>
+      <w>tworanking</w>
       <w>validateactivity</w>
       <w>validatecode</w>
       <w>validateinput</w>
