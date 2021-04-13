@@ -1,9 +1,14 @@
 <component name="ProjectDictionaryState">
   <dictionary name="Liyan">
     <words>
+      <w>addfragment</w>
+      <w>akbari</w>
       <w>andalus</w>
       <w>apiservice</w>
       <w>befor</w>
+      <w>bottomnavigation</w>
+      <w>bottomnavigationbackground</w>
+      <w>bottomnavigationview</w>
       <w>btnclick</w>
       <w>completname</w>
       <w>createaccountclick</w>
@@ -14,10 +19,17 @@
       <w>enteringcode</w>
       <w>enteringtext</w>
       <w>firstedttext</w>
+      <w>floatingactionbutton</w>
       <w>forgotpassword</w>
       <w>getcode</w>
       <w>getdata</w>
       <w>getresult</w>
+      <w>gradintscoreandrank</w>
+      <w>homeactionbar</w>
+      <w>homeactivity</w>
+      <w>homefragment</w>
+      <w>homesection</w>
+      <w>hometab</w>
       <w>imgmessage</w>
       <w>inputtext</w>
       <w>insertuser</w>
@@ -37,9 +49,14 @@
       <w>loginswitchshape</w>
       <w>loginswitchthumb</w>
       <w>loginswitchtrack</w>
+      <w>mehran</w>
       <w>mehranakbarinejhad</w>
       <w>mehranakbariniii</w>
       <w>mehranmohammadia</w>
+      <w>mnuhome</w>
+      <w>mnurank</w>
+      <w>mnusetting</w>
+      <w>mnushop</w>
       <w>namelogo</w>
       <w>numberactivity</w>
       <w>numberfi</w>
@@ -52,6 +69,7 @@
       <w>onssuccess</w>
       <w>onsuccess</w>
       <w>predictlive</w>
+      <w>rankshape</w>
       <w>registerd</w>
       <w>remmember</w>
       <w>remmemberme</w>
@@ -59,6 +77,9 @@
       <w>resultnumber</w>
       <w>resultregister</w>
       <w>returnnumberinput</w>
+      <w>scoreshape</w>
+      <w>sectiononehomegradint</w>
+      <w>sectiontwohomegradint</w>
       <w>sendcode</w>
       <w>sendcodesms</w>
       <w>sendcodetovalidate</w>
@@ -72,6 +93,10 @@
       <w>successactivity</w>
       <w>successtext</w>
       <w>swch</w>
+      <w>tabbutton</w>
+      <w>tabbuttonselect</w>
+      <w>tabbuttonselected</w>
+      <w>tabview</w>
       <w>textcode</w>
       <w>validateactivity</w>
       <w>validatecode</w>

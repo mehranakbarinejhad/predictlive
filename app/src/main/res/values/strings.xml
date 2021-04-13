@@ -24,4 +24,16 @@
     <string name="registration_completed_successfully">Registration completed successfully!</string>
     <string name="message">Message</string>
     <string name="ok">Ok</string>
+    <string name="home">Home</string>
+    <string name="mehran_akbari">Mehran Akbari</string>
+    <string name="this_week">This Week</string>
+    <string name="all_time">All Time</string>
+    <string name="shop">Shop</string>
+    <string name="ranking">Ranking</string>
+    <string name="setting">Setting</string>
+    <string name="_5450">5450</string>
+    <string name="score">Score</string>
+    <string name="_23">23</string>
+    <string name="rank">Rank</string>
+
 </resources>

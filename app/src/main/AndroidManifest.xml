@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.liyanamarket.predictlive">
-    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -12,6 +13,7 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.PredictLive"
         tools:ignore="AllowBackup">
+        <activity android:name=".HomeActivity"></activity>
         <activity android:name=".activity.SuccessRegisterActivity" />
         <activity android:name=".activity.LoginProfileActivity" />
         <activity android:name=".activity.ValidateCodeActivity" />
