@@ -2,7 +2,6 @@
     <string name="app_name">PredictLive</string>
     <string name="username">username</string>
     <string name="password">password</string>
-
     <string name="remmember_me">Remmember me? </string>
     <string name="login">Login</string>
     <string name="forgot_your_password">Forgot Your Password?</string>
@@ -23,7 +22,7 @@
     <string name="register">Register</string>
     <string name="registration_completed_successfully">Registration completed successfully!</string>
     <string name="message">Message</string>
-    <string name="ok">Ok</string>
+    <string name="ok">OK</string>
     <string name="home">Home</string>
     <string name="mehran_akbari">Mehran Akbari</string>
     <string name="this_week">This Week</string>
