@@ -77,6 +77,7 @@
                 android:layout_marginTop="20dp"
                 />
             <TextView
+                android:id="@+id/txt_nameoneranking"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mehran_akbari"
@@ -92,6 +93,7 @@
 
                 android:background="@drawable/scoretextviewshape">
                 <TextView
+                    android:id="@+id/txt_scoreoneranking"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/_5221"
@@ -120,6 +122,7 @@
                 android:layout_marginTop="40dp"
                 />
             <TextView
+                android:id="@+id/txt_nametworanking"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mehran_akbari"
@@ -135,6 +138,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/scoretextviewshape">
                 <TextView
+                    android:id="@+id/txt_scoretworanking"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/_4870"
@@ -161,6 +165,7 @@
                 android:layout_marginTop="50dp"
                 />
             <TextView
+                android:id="@+id/txt_namethreeranking"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/mehran_akbari"
@@ -175,6 +180,7 @@
                 android:layout_marginTop="10dp"
                 android:background="@drawable/scoretextviewshape">
                 <TextView
+                    android:id="@+id/txt_scorethreeranking"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/_3580"
@@ -191,6 +197,7 @@
     android:layout_below="@id/linearoneranking"/>
     </RelativeLayout>
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_ranking"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/section1ranking"/>

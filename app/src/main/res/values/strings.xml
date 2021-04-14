@@ -42,5 +42,9 @@
     <string name="manchester">Manchester</string>
     <string name="_7">+7</string>
     <string name="_2500">2500</string>
+    <string name="loading">Loading…</string>
+    <string name="warning">Warning!</string>
+    <string name="please_enter_username">Please Enter Username.</string>
+    <string name="done">Done</string>
 
 </resources>

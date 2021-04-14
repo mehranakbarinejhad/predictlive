@@ -30,7 +30,7 @@ class ThreadRegister(
                 activity.finishAffinity()
             }
             "username" -> {
-                MessageFragment("Username Is Validate! Please Another Username", R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
+                MessageFragment("Error!","Username Is Validate! Please Another Username", R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
 
             }
 
@@ -39,7 +39,7 @@ class ThreadRegister(
 
 
     override fun onerror(t: Throwable) {
-    Toast.makeText(activity,"error",Toast.LENGTH_LONG).show()
+        MessageFragment("Error!","Please Check Internet Status!",R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
     }
 }
 

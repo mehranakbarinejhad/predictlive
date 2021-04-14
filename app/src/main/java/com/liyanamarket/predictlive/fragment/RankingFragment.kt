@@ -4,10 +4,12 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.liyanamarket.predictlive.R
+import com.liyanamarket.predictlive.view.thread.allusers.Threadgetallusers
 
-class RankingFragment:Fragment() {
+class RankingFragment(private val activity: AppCompatActivity):Fragment() {
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -15,5 +17,10 @@ class RankingFragment:Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         return inflater.inflate(R.layout.fragmentranking,container,false)
+    }
+
+    override fun onActivityCreated(savedInstanceState: Bundle?) {
+        super.onActivityCreated(savedInstanceState)
+        Threadgetallusers(activity).start()
     }
 }

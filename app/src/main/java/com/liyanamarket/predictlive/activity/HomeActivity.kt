@@ -15,14 +15,17 @@ class HomeActivity : AppCompatActivity() {
         setContentView(R.layout.activity_home)
         bottomnavigationview.background = null
         bottomnavigationview.menu.getItem(2).isEnabled = false
+       addfragment(HomeFragment(this))
+
+
+
          bottomnavigationview.setOnNavigationItemSelectedListener {
             when(it.itemId)
             {
-             R.id.mnuhome -> {addfragment(HomeFragment())
+             R.id.mnuhome -> {addfragment(HomeFragment(this))
              return@setOnNavigationItemSelectedListener true }
-                R.id.mnushop -> {addfragment(HomeFragment())
-             return@setOnNavigationItemSelectedListener true }
-                R.id.mnurank ->{addfragment(RankingFragment())
+
+                R.id.mnurank ->{addfragment(RankingFragment(this))
                 return@setOnNavigationItemSelectedListener true}
             }
             false

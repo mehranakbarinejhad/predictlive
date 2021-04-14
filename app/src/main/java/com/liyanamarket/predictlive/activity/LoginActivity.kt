@@ -3,14 +3,27 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.liyanamarket.predictlive.R
+import com.liyanamarket.predictlive.utils.Savelogininfo
 import com.liyanamarket.predictlive.view.thread.login.ThreadLogin
 import kotlinx.android.synthetic.main.activity_login.*
 class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+        val logininfo=Savelogininfo(this).load()
+        val username=logininfo.first
+        val password=logininfo.second
+        if(username!=""&&password!="")
+        {
+         edt_username.setText(username)
+         edt_password.setText(password)
+        }
+        else{
+            swch_remmemberme.isChecked=false
+        }
+
         btn_login.setOnClickListener {
-            ThreadLogin(this,edt_username.text.toString(),edt_password.text.toString(),btn_login).start()
+            ThreadLogin(this,edt_username.text.toString(),edt_password.text.toString()).start()
 
 
         }

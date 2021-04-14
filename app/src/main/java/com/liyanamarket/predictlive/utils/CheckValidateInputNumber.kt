@@ -10,16 +10,16 @@ class CheckValidateInputNumber(private val activity:AppCompatActivity) {
         var bool=true
         when {
             phonenumber.isEmpty() -> {
-                MessageFragment("Please Enter PhoneNumber", R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
+                MessageFragment("Warning","Please Enter PhoneNumber", R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
                 bool=false
 
             }
             phonenumber.startsWith('0') -> {
-                MessageFragment("Please Enter PhoneNumber without 0 number", R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
+                MessageFragment("Warning","Please Enter PhoneNumber without 0 number", R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
                 bool=false
             }
             phonenumber.length!=10 -> {
-                MessageFragment("Phone Number Should Lenght 10", R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
+                MessageFragment("Warning","Phone Number Should Lenght 10", R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
                 bool=false
             }
 

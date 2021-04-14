@@ -22,7 +22,7 @@ class ThreadValidatePhoneNumber(private val activity: AppCompatActivity,private 
     override fun onsuccess(list: List<ValidatePhoneNumber>) {
         if(list[0].result)
         {
-            MessageFragment("PhoneNumber Is Befor Registerd! Please Login!", R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
+            MessageFragment("Error!","PhoneNumber Is Befor Registerd! Please Login!", R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
 
         }
         else
@@ -36,7 +36,7 @@ class ThreadValidatePhoneNumber(private val activity: AppCompatActivity,private 
     }
 
     override fun onerror(t: Throwable) {
-        MessageFragment("Error Fetch Data!Please Check Network Internet", R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
+        MessageFragment("Error!","Please Check Internet Status!",R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
 
 
     }

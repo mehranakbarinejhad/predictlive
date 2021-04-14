@@ -6,5 +6,5 @@ data class Users(
      val username:String,
      val password:String,
      val image:String,
-     val score:String,
+     val Score:Int,
      val phonenumber:String)

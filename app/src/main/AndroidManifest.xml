@@ -13,6 +13,8 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.PredictLive"
         tools:ignore="AllowBackup">
+        <activity android:name=".activity.ForgetActivity"></activity>
+        <activity android:name=".activity.ForgetActivity"></activity>
         <activity android:name=".activity.PredictActivity" />
         <activity android:name=".activity.HomeActivity" />
         <activity android:name=".activity.SuccessRegisterActivity" />

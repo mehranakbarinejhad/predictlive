@@ -14,6 +14,8 @@
       <w>completname</w>
       <w>createaccountclick</w>
       <w>createaccounttext</w>
+      <w>customviewholder</w>
+      <w>dont</w>
       <w>edittextborder</w>
       <w>edttext</w>
       <w>entercodetext</w>
@@ -23,9 +25,11 @@
       <w>firstranking</w>
       <w>floatingactionbutton</w>
       <w>forgotpassword</w>
+      <w>fragmentdialog</w>
       <w>getcode</w>
       <w>getdata</w>
       <w>getresult</w>
+      <w>getuserinfo</w>
       <w>gradintpredictlistitem</w>
       <w>gradintscoreandrank</w>
       <w>homeactionbar</w>
@@ -33,18 +37,24 @@
       <w>homefragment</w>
       <w>homesection</w>
       <w>hometab</w>
+      <w>imageloginuser</w>
       <w>imgmessage</w>
+      <w>imgoneuser</w>
+      <w>imgsrc</w>
       <w>inputtext</w>
       <w>insertuser</w>
       <w>iranflag</w>
+      <w>itemview</w>
       <w>lastedttext</w>
       <w>lenght</w>
       <w>linearoneranking</w>
+      <w>loadingshape</w>
       <w>loginaccounttext</w>
       <w>loginactivity</w>
       <w>loginbutton</w>
       <w>loginclick</w>
       <w>logingradint</w>
+      <w>logininfo</w>
       <w>loginlogo</w>
       <w>loginlogoprofile</w>
       <w>loginprofile</w>
@@ -57,12 +67,17 @@
       <w>mehranakbarinejhad</w>
       <w>mehranakbariniii</w>
       <w>mehranmohammadia</w>
+      <w>messagebutton</w>
+      <w>messageshape</w>
       <w>mnuhome</w>
       <w>mnurank</w>
       <w>mnusetting</w>
       <w>mnushop</w>
       <w>namelogo</w>
+      <w>nameuser</w>
       <w>nawal</w>
+      <w>nopassword</w>
+      <w>nousername</w>
       <w>numberactivity</w>
       <w>numberfi</w>
       <w>numberfive</w>
@@ -74,10 +89,14 @@
       <w>onerror</w>
       <w>onssuccess</w>
       <w>onsuccess</w>
+      <w>passwordloginuser</w>
+      <w>phonenumberloginuser</w>
       <w>predictedittextshape</w>
       <w>predictitembuttonshape</w>
       <w>predictlive</w>
+      <w>rankinglist</w>
       <w>rankinglistbackground</w>
+      <w>rankingrecyclerlist</w>
       <w>rankingshape</w>
       <w>rankshape</w>
       <w>recyclerranking</w>
@@ -88,6 +107,9 @@
       <w>resultnumber</w>
       <w>resultregister</w>
       <w>returnnumberinput</w>
+      <w>savelogininfo</w>
+      <w>scoreloginuser</w>
+      <w>scoreoneranking</w>
       <w>scoreshape</w>
       <w>scoretextviewshape</w>
       <w>sectiononehomegradint</w>
@@ -110,8 +132,16 @@
       <w>tabbuttonselected</w>
       <w>tabview</w>
       <w>textcode</w>
+      <w>textmessage</w>
+      <w>titr</w>
+      <w>titrmessage</w>
       <w>treeranking</w>
       <w>tworanking</w>
+      <w>txtmessage</w>
+      <w>txtname</w>
+      <w>txtrank</w>
+      <w>txtscore</w>
+      <w>usernameloginuser</w>
       <w>validateactivity</w>
       <w>validatecode</w>
       <w>validateinput</w>

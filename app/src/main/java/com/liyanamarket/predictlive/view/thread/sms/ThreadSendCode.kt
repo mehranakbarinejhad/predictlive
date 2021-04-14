@@ -3,7 +3,9 @@ package com.liyanamarket.predictlive.view.thread.sms
 
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.liyanamarket.predictlive.R
 import com.liyanamarket.predictlive.dataclass.SmsCode
+import com.liyanamarket.predictlive.fragment.MessageFragment
 import com.liyanamarket.predictlive.presenter.sms.PresenterSmsCode
 import com.liyanamarket.predictlive.presenter.sms.Senddatatoview
 
@@ -28,7 +30,8 @@ class ThreadSendCode(
     }
 
     override fun onerror(Error: Throwable) {
-        Toast.makeText(activity, "Error", Toast.LENGTH_LONG).show()
+        MessageFragment("Error!","Please Check Internet Status!", R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
+
     }
 }
 interface Sendcodetovalidate{
