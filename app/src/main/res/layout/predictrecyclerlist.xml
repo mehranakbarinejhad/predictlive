@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="100dp"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="horizontal"
     android:layout_margin="5dp"
     android:weightSum="4"
-    android:background="@drawable/gradintpredictlistitem"
-    >
+    android:background="@drawable/gradintpredictlistitem">
 
       <TextView
+          android:id="@+id/txt_status_predictrecyclerlist"
           android:layout_width="0dp"
           android:layout_height="match_parent"
           android:layout_weight="0.7"
@@ -28,16 +28,18 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-
+            android:baselineAligned="true"
             android:orientation="horizontal"
             android:layout_gravity="top"
             >
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_hometeam"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:src="@drawable/girl"/>
             <TextView
+                android:id="@+id/txt_hometeamname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -47,13 +49,48 @@
                 android:textSize="20sp"
                 android:layout_marginLeft="5dp"
                 android:fontFamily="@font/nawal"/>
-            <androidx.appcompat.widget.AppCompatEditText
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:background="@drawable/predictedittextshape"
-                android:layout_marginLeft="8dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                >
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edt_userhometeamgol"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:maxLength="2"
+                    android:textSize="20sp"
+                android:layout_marginRight="15dp"
+                    android:textColor="#292929"
+                    android:inputType="number"
+                    android:fontFamily="@font/bernard"
+                    android:background="@drawable/predictedittextshape"
+                    android:layout_marginLeft="8dp"/>
+                <FrameLayout
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignRight="@id/edt_userhometeamgol"
+                    android:layout_marginRight="-14dp"
+                    android:gravity="right"
+                    android:fontFamily="@font/arial"
+                    android:background="@drawable/badgescorematchshape"
+                    >
+                    <TextView
+                        android:id="@+id/txtadminhomegoal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        tools:text="@string/_1"
+                        android:fontFamily="@font/arial"
+                        android:textColor="#FFF"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+                </FrameLayout>
+
+            </RelativeLayout>
 
         </LinearLayout>
 
@@ -63,14 +100,17 @@
 
             android:layout_width="match_parent"
             android:layout_height="50dp"
+
             android:layout_gravity="bottom"
            >
             <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_guestteam"
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_gravity="center"
                 android:src="@drawable/girl"/>
             <TextView
+                android:id="@+id/txt_guestteamname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -80,19 +120,60 @@
                 android:textSize="20sp"
                 android:layout_marginLeft="5dp"
                 android:fontFamily="@font/nawal"/>
-            <androidx.appcompat.widget.AppCompatEditText
-                android:layout_width="36dp"
-                android:layout_height="36dp"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:background="@drawable/predictedittextshape"
-                android:layout_marginLeft="8dp"/>
+            <RelativeLayout
+                android:layout_marginRight="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                >
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edt_userguestteamgol"
+                    android:layout_width="38dp"
+                    android:layout_height="38dp"
+
+                    android:maxLength="2"
+                    android:inputType="number"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:fontFamily="@font/bernard"
+                    android:textSize="20sp"
+                    android:layout_marginRight="15dp"
+                    android:textColor="#292929"
+                    android:background="@drawable/predictedittextshape"
+                    android:layout_marginLeft="8dp"/>
+                <FrameLayout
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignRight="@id/edt_userguestteamgol"
+                   android:layout_marginRight="-14dp"
+                    android:gravity="right"
+                    android:fontFamily="@font/arial"
+                    android:background="@drawable/badgescorematchshape"
+>
+                    <TextView
+                        android:id="@+id/txt_adminguestgol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+
+                        tools:text="@string/_1"
+                        android:fontFamily="@font/arial"
+                        android:textColor="#FFF"
+                        android:gravity="center"
+                        android:layout_gravity="center"/>
+                </FrameLayout>
+
+
+
+            </RelativeLayout>
         </LinearLayout>
 
 
 
     </FrameLayout>
     <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_addpredict"
         android:layout_width="0dp"
         android:layout_height="55dp"
         android:layout_weight="0.9"

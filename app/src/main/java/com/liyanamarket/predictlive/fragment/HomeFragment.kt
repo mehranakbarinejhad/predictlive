@@ -33,6 +33,7 @@ class HomeFragment( val activity: AppCompatActivity):Fragment(),Senddatatoview {
             activity.score_text.text=activity.intent.getIntExtra("scoreloginuser",-1).toString()
                 Picasso.with(activity).load(activity.intent.getStringExtra("imageloginuser")).into(activity.img_user)
                  Presenter(this).getusers("selectuser",username)
+            
 
 
 

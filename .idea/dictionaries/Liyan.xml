@@ -2,12 +2,16 @@
   <dictionary name="Liyan">
     <words>
       <w>addfragment</w>
+      <w>adminhometeamgol</w>
       <w>akbari</w>
       <w>andalus</w>
       <w>apiservice</w>
+      <w>badgeshapetopranking</w>
       <w>befor</w>
       <w>bottomnavigation</w>
       <w>bottomnavigationbackground</w>
+      <w>bottomnavigationitemclick</w>
+      <w>bottomnavigationoitemonclick</w>
       <w>bottomnavigationview</w>
       <w>btnclick</w>
       <w>cardview</w>
@@ -32,6 +36,7 @@
       <w>getuserinfo</w>
       <w>gradintpredictlistitem</w>
       <w>gradintscoreandrank</w>
+      <w>greendark</w>
       <w>homeactionbar</w>
       <w>homeactivity</w>
       <w>homefragment</w>
@@ -63,6 +68,7 @@
       <w>loginswitchshape</w>
       <w>loginswitchthumb</w>
       <w>loginswitchtrack</w>
+      <w>matchdate</w>
       <w>mehran</w>
       <w>mehranakbarinejhad</w>
       <w>mehranakbariniii</w>
@@ -94,6 +100,7 @@
       <w>predictedittextshape</w>
       <w>predictitembuttonshape</w>
       <w>predictlive</w>
+      <w>predictrecyclerlist</w>
       <w>rankinglist</w>
       <w>rankinglistbackground</w>
       <w>rankingrecyclerlist</w>
@@ -101,6 +108,7 @@
       <w>rankshape</w>
       <w>recyclerranking</w>
       <w>registerd</w>
+      <w>relateiveparentranking</w>
       <w>remmember</w>
       <w>remmemberme</w>
       <w>resendcodeclick</w>
@@ -112,6 +120,7 @@
       <w>scoreoneranking</w>
       <w>scoreshape</w>
       <w>scoretextviewshape</w>
+      <w>scorethreeranking</w>
       <w>sectiononehomegradint</w>
       <w>sectiontwohomegradint</w>
       <w>sendcode</w>
@@ -133,6 +142,7 @@
       <w>tabview</w>
       <w>textcode</w>
       <w>textmessage</w>
+      <w>threadgetallusers</w>
       <w>titr</w>
       <w>titrmessage</w>
       <w>treeranking</w>
