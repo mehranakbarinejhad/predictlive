@@ -2,10 +2,12 @@
   <dictionary name="Liyan">
     <words>
       <w>addfragment</w>
+      <w>adminguestteamgol</w>
       <w>adminhometeamgol</w>
       <w>akbari</w>
       <w>andalus</w>
       <w>apiservice</w>
+      <w>apiservices</w>
       <w>badgeshapetopranking</w>
       <w>befor</w>
       <w>bottomnavigation</w>
@@ -18,9 +20,12 @@
       <w>completname</w>
       <w>createaccountclick</w>
       <w>createaccounttext</w>
+      <w>customviewholde</w>
       <w>customviewholder</w>
       <w>dont</w>
       <w>edittextborder</w>
+      <w>edittextuserguestgoal</w>
+      <w>edittextuserhomegoal</w>
       <w>edttext</w>
       <w>entercodetext</w>
       <w>enteringcode</w>
@@ -37,11 +42,15 @@
       <w>gradintpredictlistitem</w>
       <w>gradintscoreandrank</w>
       <w>greendark</w>
+      <w>guestteamgols</w>
       <w>homeactionbar</w>
       <w>homeactivity</w>
       <w>homefragment</w>
       <w>homesection</w>
       <w>hometab</w>
+      <w>hometeamgols</w>
+      <w>imageguestteam</w>
+      <w>imagehometeam</w>
       <w>imageloginuser</w>
       <w>imgmessage</w>
       <w>imgoneuser</w>
@@ -69,6 +78,8 @@
       <w>loginswitchthumb</w>
       <w>loginswitchtrack</w>
       <w>matchdate</w>
+      <w>matchid</w>
+      <w>matchlist</w>
       <w>mehran</w>
       <w>mehranakbarinejhad</w>
       <w>mehranakbariniii</w>
@@ -79,6 +90,8 @@
       <w>mnurank</w>
       <w>mnusetting</w>
       <w>mnushop</w>
+      <w>mypredictlist</w>
+      <w>myview</w>
       <w>namelogo</w>
       <w>nameuser</w>
       <w>nawal</w>
@@ -100,6 +113,7 @@
       <w>predictedittextshape</w>
       <w>predictitembuttonshape</w>
       <w>predictlive</w>
+      <w>predictmatch</w>
       <w>predictrecyclerlist</w>
       <w>rankinglist</w>
       <w>rankinglistbackground</w>
@@ -115,14 +129,20 @@
       <w>resultnumber</w>
       <w>resultregister</w>
       <w>returnnumberinput</w>
+      <w>sanaz</w>
       <w>savelogininfo</w>
+      <w>saveusername</w>
       <w>scoreloginuser</w>
+      <w>scorematch</w>
       <w>scoreoneranking</w>
       <w>scoreshape</w>
       <w>scoretextviewshape</w>
       <w>scorethreeranking</w>
       <w>sectiononehomegradint</w>
       <w>sectiontwohomegradint</w>
+      <w>selectpredict</w>
+      <w>selectpredictbyuser</w>
+      <w>selectpredictuser</w>
       <w>sendcode</w>
       <w>sendcodesms</w>
       <w>sendcodetovalidate</w>
@@ -130,6 +150,8 @@
       <w>senddata</w>
       <w>senddatatoview</w>
       <w>sendphonenumber</w>
+      <w>sendpredictdatatoview</w>
+      <w>sendpredictlisttoview</w>
       <w>setfocus</w>
       <w>simsun</w>
       <w>smscode</w>
@@ -140,7 +162,11 @@
       <w>tabbuttonselect</w>
       <w>tabbuttonselected</w>
       <w>tabview</w>
+      <w>teamguestgols</w>
+      <w>teaminfo</w>
       <w>textcode</w>
+      <w>textguestteamname</w>
+      <w>texthometeamname</w>
       <w>textmessage</w>
       <w>threadgetallusers</w>
       <w>titr</w>
@@ -151,6 +177,7 @@
       <w>txtname</w>
       <w>txtrank</w>
       <w>txtscore</w>
+      <w>usenrame</w>
       <w>usernameloginuser</w>
       <w>validateactivity</w>
       <w>validatecode</w>

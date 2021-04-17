@@ -1,7 +1,6 @@
 package com.liyanamarket.predictlive.model.predict
 
 import com.liyanamarket.predictlive.dataclass.Resultpredict
-import com.liyanamarket.predictlive.model.match.apiservice
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

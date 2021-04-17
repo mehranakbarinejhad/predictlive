@@ -7,18 +7,21 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-class ConnectToApiMatch {
-    fun getmatch():apiservice{
-        return Retrofit.Builder().addConverterFactory(GsonConverterFactory.create()).baseUrl("http://www.liyanamarket.ir/")
-            .build().create(apiservice::class.java)
+class ConnectToSelectMatch {
+    fun selectmatch():Apiservice{
+
+        return Retrofit.Builder().addConverterFactory(GsonConverterFactory.create())
+            .baseUrl("http://www.liyanamarket.ir/")
+            .build().create(Apiservice::class.java)
+
+
     }
 }
-interface apiservice{
+interface Apiservice{
     @GET("Main.php")
-    fun getmatch(
+    fun selectmatch(
         @Query("action")action:String,
         @Query("matchdate")matchdate:String
 
     ):Call<List<Match>>
-
 }

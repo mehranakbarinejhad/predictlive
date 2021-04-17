@@ -1,4 +1,5 @@
 package com.liyanamarket.predictlive.view.thread.login
+import android.content.Context
 import android.content.Intent
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
@@ -16,7 +17,6 @@ import kotlinx.android.synthetic.main.activity_login.*
 class ThreadLogin(val activity:AppCompatActivity, private val username:String, private val password:String):Thread(),Senddatatoview {
     override fun run() {
        activity.runOnUiThread {
-
            if(username.isEmpty())
            {
                MessageFragment("Warning!","Username is Empty!please Enter UserName.",R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
@@ -44,6 +44,9 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
 
             if(password==user[0].password)
             {
+                 val pref=activity.getSharedPreferences("saveusername", Context.MODE_PRIVATE)
+                pref.edit().putString("username",username).apply()
+
                 val intent=Intent(activity, HomeActivity::class.java)
                 intent.putExtra("usernameloginuser",username)
                 intent.putExtra("nameuser",user[0].name)
@@ -51,6 +54,7 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
                 intent.putExtra("imageloginuser",user[0].image)
                 intent.putExtra("phonenumberloginuser",user[0].phonenumber)
                 intent.putExtra("scoreloginuser",user[0].Score)
+
                 activity.startActivity(intent)
                 activity.finishAffinity()
                 if(activity.swch_remmemberme.isChecked) {
