@@ -15,7 +15,7 @@ class PredictActivity : AppCompatActivity(){
         setContentView(R.layout.activity_predict)
         val pref=getSharedPreferences("saveusername", Context.MODE_PRIVATE)
         val username=pref.getString("username","").toString()
-        ThreadPredictActivity(this,username,"13991220").start()
+        ThreadPredictActivity(this,username,"000128").start()
 
     }
 

@@ -59,7 +59,8 @@ class PredictAdapter(
                 holder.texthometeamname,
                 holder.textguesteamname,
                 holder.textadminhomegols,
-                holder.textadminguestgols
+                holder.textadminguestgols,
+                holder.btnadd
             )
             applyuserpredicttorecycler(
                 predictlist,
@@ -95,11 +96,23 @@ class PredictAdapter(
         txthometeamname: TextView,
         txtguestteamname: TextView,
         txtadminhomegols: TextView,
-        txtadminguestgolas: TextView
+        txtadminguestgolas: TextView,
+        btnok:Button
 
     ) {
         if (listmatch[position].status != "") {
             txtstatus.text = listmatch[position].status
+            btnok.setBackgroundResource(R.drawable.disablebuttonpredictlist)
+            if(listmatch[position].status == "END")
+            {
+                btnok.text="+0"
+            }
+            else
+            {
+                btnok.text="Disable"
+            }
+
+            btnok.isEnabled=false
         } else {
             val time = listmatch[position].matchhour
             val hour = time.substring(0, 2)
@@ -111,6 +124,34 @@ class PredictAdapter(
         Picasso.with(context).load(listmatch[position].hometeam[0].logo).into(imagehome)
         Picasso.with(context).load(listmatch[position].guestteam[0].logo).into(imageguest)
         txthometeamname.text = listmatch[position].hometeam[0].name
+        val txthometeamnamelenght=txthometeamname.text.length
+        when {
+            txthometeamnamelenght>10 -> {
+                txthometeamname.textSize=16F
+            }
+            txthometeamnamelenght>15 -> {
+                txthometeamname.textSize=5F
+            }
+
+            else -> {
+                txthometeamname.textSize=18F
+            }
+        }
+     val txtguestteamnamelenght=txthometeamname.text.length
+        when {
+            txtguestteamnamelenght>10 -> {
+                txtguestteamname.textSize=16F
+            }
+            txthometeamnamelenght>13 -> {
+                txtguestteamname.textSize=5F
+            }
+
+            else -> {
+                txtguestteamname.textSize=18F
+            }
+        }
+
+
         txtguestteamname.text = listmatch[position].guestteam[0].name
         if (listmatch[position].status == "") {
             txtadminhomegols.text = "?"
@@ -139,8 +180,9 @@ class PredictAdapter(
 
         while (counter < listpredict.count()) {
             if (listpredict[counter].matchid == listmatch[position].matchid) {
+
                 if (listpredict[counter].scorematch != "") {
-                    btnok.text = listpredict[counter].scorematch
+                    btnok.text = "+"+listpredict[counter].scorematch
                     btnok.isEnabled = false
                     when (listpredict[counter].scorematch) {
                         "2" -> {
@@ -158,10 +200,23 @@ class PredictAdapter(
                     }
 
 
-                } else {
+                }
+                else {
+                        if(listmatch[position].status=="")
+                        {
                     btnok.text = "Edit"
                     btnok.setBackgroundResource(R.drawable.editbuttnpredictshape)
 
+                        }
+                    else
+                        {
+                            if(listmatch[position].status!="END") {
+                                btnok.text = "Disable"
+                                btnok.setBackgroundResource(R.drawable.disablebuttonpredictlist)
+                                btnok.isEnabled = false
+                            }
+                            
+                        }
                 }
 
                 edtuserhometeamgols.setText(listpredict[counter].hometeamgols.toString())
@@ -172,11 +227,14 @@ class PredictAdapter(
 
                 return
             }
+
             counter++
         }
     }
     //endregion
 
+
+    //region Button Add Command
     @SuppressLint("SetTextI18n")
     fun applubuttoncommand(
         btnok: Button,
@@ -216,4 +274,6 @@ class PredictAdapter(
         }
 
     }
+    //endregion
+
 }
