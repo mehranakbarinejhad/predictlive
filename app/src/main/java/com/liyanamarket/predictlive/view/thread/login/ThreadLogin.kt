@@ -19,7 +19,7 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
        activity.runOnUiThread {
            if(username.isEmpty())
            {
-               MessageFragment("Warning!","Username is Empty!please Enter UserName.",R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
+               MessageFragment("هشدار!","لطفا نام کاربری را وارد نمایید.",R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
                return@runOnUiThread
 
            }
@@ -37,7 +37,7 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
         if(user.count()!=0) {
             if(password.isEmpty())
             {
-                MessageFragment("Warning!","Password is Empty!please Enter Password",R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
+                MessageFragment("هشدار!","لطفا رمز عبور را وارد نمایید.",R.drawable.ic_warning).show(activity.supportFragmentManager,"Message")
                 return
             }
 
@@ -69,7 +69,7 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
             }
             else
             {
-               MessageFragment("Error!","password is Wrong!Please Check Password",R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
+               MessageFragment("خطا!","رمز عبور اشتباه می باشد.",R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
                 return
 
 
@@ -78,7 +78,7 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
         }
         else
         {
-            MessageFragment("Error!","UserName Note Found!If Dont Account,Please Register Then Login. ",R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
+            MessageFragment("خطا!","نام کاربری اشتباه می باشد.\nاگر حساب کاربری ندارید لطفا ثبت نام نمایید.",R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
             return
         }
 
@@ -88,7 +88,7 @@ class ThreadLogin(val activity:AppCompatActivity, private val username:String, p
     override fun onerror(t: Throwable) {
        DisMissProgressbar(activity).dismiss()
 
-        MessageFragment("Error!","Please Check Internet Status!",R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
+        MessageFragment("خطا!","لطفا اتصال به اینترنت را بررسی نمایید",R.drawable.ic_error).show(activity.supportFragmentManager,"Message")
 
     }
 

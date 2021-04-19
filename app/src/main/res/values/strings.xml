@@ -1,25 +1,25 @@
 <resources>
     <string name="app_name">PredictLive</string>
-    <string name="username">username</string>
-    <string name="password">password</string>
-    <string name="remmember_me">Remmember me? </string>
-    <string name="login">Login</string>
-    <string name="forgot_your_password">Forgot Your Password?</string>
-    <string name="do_not_have_a_account">Do not have a account?</string>
-    <string name="create_one">Create One</string>
+    <string name="username">نام کاربری</string>
+    <string name="password">رمز عبور</string>
+    <string name="remmember_me">مرا به خاطر بسپار! </string>
+    <string name="login">ورود</string>
+    <string name="forgot_your_password">اطلاعات ورود را فراموش کرده اید؟ </string>
+    <string name="do_not_have_a_account">تا حالا ثبت نام نکرده ام/</string>
+    <string name="create_one">ثبت نام</string>
     <string name="l">L</string>
     <string name="live_predict">Live Predict</string>
     <string name="next">Next</string>
-    <string name="do_have_an_account">Do have an account?</string>
+    <string name="do_have_an_account">آیا ثبت نام کرده اید؟/</string>
     <string name="_98">+98</string>
     <string name="todo">TODO</string>
-    <string name="phone_number">Phone Number</string>
-    <string name="did_not_the_code">Did Not The Code?</string>
-    <string name="resend_code">Resend Code</string>
-    <string name="we_sent_a_code_via_sms_to_number_09184591468_please_enter_it">We sent a code via Sms to number 09184591468,please enter it</string>
-    <string name="name">Name</string>
-    <string name="confirm">Confirm</string>
-    <string name="register">Register</string>
+    <string name="phone_number">شماره موبایل</string>
+    <string name="did_not_the_code">ایا کد فعال سازی را دریافت نکرده اید؟</string>
+    <string name="resend_code">ارسال دوباره</string>
+    <string name="sendcodetext">ما یک کد جهت فعال سازی به شماره 09184591468 ارسال کردیم!لطفا آن را وارد کنید.</string>
+    <string name="name">نام و نام خانوادگی</string>
+    <string name="confirm">تکرار رمز عبور</string>
+    <string name="register">ثبت نام</string>
     <string name="registration_completed_successfully">Registration completed successfully!</string>
     <string name="message">Message</string>
     <string name="ok">OK</string>
@@ -42,14 +42,18 @@
     <string name="manchester">Manchester</string>
     <string name="_7">+7</string>
     <string name="_2500">2500</string>
-    <string name="loading">Loading…</string>
-    <string name="warning">Warning!</string>
-    <string name="please_enter_username">Please Enter Username.</string>
-    <string name="done">Done</string>
+    <string name="loading">درحال اتصال…</string>
+    <string name="warning">هشدار!</string>
+    <string name="please_enter_username">لطفا نام کاربری را وارد نمایید.</string>
+    <string name="done">تایید</string>
     <string name="_1">1</string>
     <string name="_2">2</string>
     <string name="_3">3</string>
     <string name="_add">Add</string>
+    <string name="change">Change</string>
+    <string name="recovery_logininfo">بازیابی اطلاعات</string>
+    <string name="upload">upload</string>
+    <string name="_ok">تایید</string>
 
 
 </resources>

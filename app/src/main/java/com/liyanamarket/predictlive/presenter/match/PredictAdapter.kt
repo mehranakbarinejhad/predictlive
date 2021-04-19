@@ -262,7 +262,6 @@ class PredictAdapter(
                     edttextuserguestgols.isEnabled = false
                     btnok.setBackgroundResource(R.drawable.editbuttnpredictshape)
 
-                 //  Toast.makeText(context,predictlist[position].matchid.toString(),Toast.LENGTH_LONG).show()
                    ThreadInsertPredictuser(context as AppCompatActivity,username,listmatch[position].matchid.toString().toInt(),edttextuserhomegoals.text.toString().toInt(),edttextuserguestgols.text.toString().toInt()).start()
                 }
                 else

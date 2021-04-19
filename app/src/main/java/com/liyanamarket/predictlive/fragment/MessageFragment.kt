@@ -41,7 +41,7 @@ class MessageFragment(private var titrmessage:String,private var textmessage: St
     }
     override fun onStart() {
         super.onStart()
-       val width=(resources.displayMetrics.widthPixels*0.70).toInt()
+       val width=(resources.displayMetrics.widthPixels*0.85).toInt()
 
         dialog!!.window?.setLayout(width,ViewGroup.LayoutParams.WRAP_CONTENT)
         dialog!!.setCancelable(false)

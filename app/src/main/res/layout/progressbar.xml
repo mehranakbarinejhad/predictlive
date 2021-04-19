@@ -7,18 +7,19 @@
     android:background="@drawable/loadingshape"
     android:gravity="center"
     android:layout_height="wrap_content">
+    <ProgressBar
+        android:layout_marginRight="20sp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"/>
 <TextView
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:text="@string/loading"
     android:layout_gravity="center"
     android:gravity="center"
-    android:fontFamily="@font/andalus"
+    android:fontFamily="@font/bernard"
     android:textColor="#FFF"
-    android:textSize="30sp"/>
-    <ProgressBar
-        android:layout_marginLeft="20sp"
-        android:layout_width="50dp"
-        android:layout_height="50dp"/>
+    android:textSize="25sp"/>
+
 
 </LinearLayout>

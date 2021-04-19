@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/numberactivity_parent"
+    android:background="@drawable/logingradint"
+    tools:context=".activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal">
+            <View
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:background="@drawable/loginlogo"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFF"
+                android:text="@string/l"
+                android:fontFamily="@font/simsun"
+                android:layout_marginTop="35sp"
+                android:layout_gravity="center_horizontal"
+                android:textSize="90sp"
+                />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/live_predict"
+            android:textSize="22sp"
+            android:fontFamily="@font/andalus"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textColor="#C6CBD4"/>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:gravity="center"
+        android:layout_marginBottom="80dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/img_flag"
+                android:layout_width="45dp"
+                android:layout_height="32dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:src="@drawable/iranflag"
+                android:scaleType="fitXY"
+                android:contentDescription="@string/todo" />
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="52dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/_98"
+                android:enabled="false"
+                style="@style/myEditText"
+                android:backgroundTint="#5E6A7B"
+                android:layout_marginStart="5dp"/>
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/edt_phonenumber_recoveryactivity"
+                android:inputType="number"
+                android:imeOptions="actionDone"
+                android:maxLength="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="40dp"
+                android:backgroundTint="#5E6A7B"
+                android:hint="@string/phone_number"
+                style="@style/myEditText"
+                android:layout_marginStart="5dp"/>
+
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_next_recoveryactivity"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:text="@string/next"
+            android:textSize="25sp"
+            android:textAllCaps="false"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/loginbutton"
+            android:textColor="#FFF"/>
+    </LinearLayout>
+
+
+</LinearLayout>

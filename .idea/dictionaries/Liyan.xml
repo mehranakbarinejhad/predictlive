@@ -6,35 +6,49 @@
       <w>adminhometeamgol</w>
       <w>akbari</w>
       <w>andalus</w>
+      <w>anko</w>
       <w>apiservice</w>
       <w>apiservices</w>
       <w>badgeshapetopranking</w>
       <w>befor</w>
+      <w>bmitrabold</w>
       <w>bottomnavigation</w>
       <w>bottomnavigationbackground</w>
       <w>bottomnavigationitemclick</w>
       <w>bottomnavigationoitemonclick</w>
       <w>bottomnavigationview</w>
+      <w>btnadd</w>
       <w>btnclick</w>
       <w>cardview</w>
+      <w>changeprofile</w>
+      <w>checkboxbackground</w>
       <w>completname</w>
+      <w>countrycode</w>
       <w>createaccountclick</w>
       <w>createaccounttext</w>
       <w>customviewholde</w>
       <w>customviewholder</w>
+      <w>decodeimage</w>
       <w>dont</w>
+      <w>edittext</w>
       <w>edittextborder</w>
       <w>edittextuserguestgoal</w>
+      <w>edittextuserguestteamgols</w>
       <w>edittextuserhomegoal</w>
+      <w>edittextuserhometeamgols</w>
       <w>edttext</w>
+      <w>encodedimage</w>
+      <w>encodeimage</w>
       <w>entercodetext</w>
       <w>enteringcode</w>
       <w>enteringtext</w>
       <w>firstedttext</w>
+      <w>firstpresstime</w>
       <w>firstranking</w>
       <w>floatingactionbutton</w>
       <w>forgotpassword</w>
       <w>fragmentdialog</w>
+      <w>framrankandscore</w>
       <w>getcode</w>
       <w>getdata</w>
       <w>getresult</w>
@@ -49,9 +63,11 @@
       <w>homesection</w>
       <w>hometab</w>
       <w>hometeamgols</w>
+      <w>imagebyte</w>
       <w>imageguestteam</w>
       <w>imagehometeam</w>
       <w>imageloginuser</w>
+      <w>imagetobyte</w>
       <w>imgmessage</w>
       <w>imgoneuser</w>
       <w>imgsrc</w>
@@ -62,6 +78,7 @@
       <w>lastedttext</w>
       <w>lenght</w>
       <w>linearoneranking</w>
+      <w>linearparent</w>
       <w>loadingshape</w>
       <w>loginaccounttext</w>
       <w>loginactivity</w>
@@ -80,6 +97,7 @@
       <w>matchdate</w>
       <w>matchid</w>
       <w>matchlist</w>
+      <w>maxtime</w>
       <w>mehran</w>
       <w>mehranakbarinejhad</w>
       <w>mehranakbariniii</w>
@@ -120,6 +138,7 @@
       <w>rankingrecyclerlist</w>
       <w>rankingshape</w>
       <w>rankshape</w>
+      <w>recoveryactivity</w>
       <w>recyclerranking</w>
       <w>registerd</w>
       <w>relateiveparentranking</w>
@@ -129,6 +148,7 @@
       <w>resultnumber</w>
       <w>resultregister</w>
       <w>returnnumberinput</w>
+      <w>revovery</w>
       <w>sanaz</w>
       <w>savelogininfo</w>
       <w>saveusername</w>
@@ -145,6 +165,7 @@
       <w>selectpredictuser</w>
       <w>sendcode</w>
       <w>sendcodesms</w>
+      <w>sendcodetext</w>
       <w>sendcodetovalidate</w>
       <w>sendcodetovalidateactivity</w>
       <w>senddata</w>
@@ -153,8 +174,10 @@
       <w>sendpredictdatatoview</w>
       <w>sendpredictlisttoview</w>
       <w>setfocus</w>
+      <w>shapesrank</w>
       <w>simsun</w>
       <w>smscode</w>
+      <w>strimage</w>
       <w>successactivity</w>
       <w>successtext</w>
       <w>swch</w>
@@ -164,10 +187,14 @@
       <w>tabview</w>
       <w>teamguestgols</w>
       <w>teaminfo</w>
+      <w>textadminguestgols</w>
+      <w>textadminhomegols</w>
       <w>textcode</w>
+      <w>textguesteamname</w>
       <w>textguestteamname</w>
       <w>texthometeamname</w>
       <w>textmessage</w>
+      <w>textstatus</w>
       <w>threadgetallusers</w>
       <w>titr</w>
       <w>titrmessage</w>
@@ -182,10 +209,16 @@
       <w>usernameloginuser</w>
       <w>validateactivity</w>
       <w>validatecode</w>
+      <w>validatecoderecovery</w>
       <w>validateinput</w>
       <w>validatenumber</w>
       <w>validatephonenumber</w>
+      <w>veiwrank</w>
+      <w>veiwscore</w>
+      <w>viewholder</w>
       <w>viewlogo</w>
+      <w>viewrank</w>
+      <w>viewscore</w>
       <w>zoomout</w>
     </words>
   </dictionary>

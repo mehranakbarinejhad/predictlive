@@ -2,6 +2,7 @@ package com.liyanamarket.predictlive.activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.AnimationUtils
 import com.liyanamarket.predictlive.R
 import com.liyanamarket.predictlive.utils.CheckValidateInputNumber
 import com.liyanamarket.predictlive.view.thread.validatephonenumber.ThreadValidatePhoneNumber
@@ -12,7 +13,8 @@ class NumberActivity : AppCompatActivity(){
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_number)
-btn_next_numberactivity.setOnClickListener {
+
+        btn_next_numberactivity.setOnClickListener {
 
 
     if(CheckValidateInputNumber(this).validatenumber(edt_phonenumber_numberactivity.text.toString())) {

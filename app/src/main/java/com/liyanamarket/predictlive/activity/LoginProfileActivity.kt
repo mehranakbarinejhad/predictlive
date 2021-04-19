@@ -2,6 +2,7 @@ package com.liyanamarket.predictlive.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.AnimationUtils
 import android.widget.EditText
 import android.widget.Toast
 
@@ -15,6 +16,7 @@ class LoginProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login_profile)
+        linearparent_registeractivity.animation=AnimationUtils.loadAnimation(this,R.anim.zoomout)
         val phoneNumber = intent.getStringExtra("phonenumber")
         edt_phonenumber_loginprofileactivity.setText(phoneNumber)
 

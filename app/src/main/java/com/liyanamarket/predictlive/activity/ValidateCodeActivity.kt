@@ -3,13 +3,16 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.animation.AnimationUtils
 import android.widget.EditText
 import android.widget.Toast
 import androidx.core.widget.addTextChangedListener
+
 import com.liyanamarket.predictlive.R
 
 import com.liyanamarket.predictlive.view.thread.sms.Sendcodetovalidate
 import com.liyanamarket.predictlive.view.thread.sms.ThreadSendCode
+import kotlinx.android.synthetic.main.activity_success_register.*
 import kotlinx.android.synthetic.main.activity_validate_code.*
 
 class ValidateCodeActivity : AppCompatActivity(),Sendcodetovalidate {
@@ -20,7 +23,7 @@ class ValidateCodeActivity : AppCompatActivity(),Sendcodetovalidate {
         setContentView(R.layout.activity_validate_code)
 
         val phonenumber=intent.getStringExtra("phonenumber").toString()
-        txt_entercodetext_validateactivity.text="We sent a code via Sms to number $phonenumber,please enter it"
+        txt_entercodetext_validateactivity.text=" ما یک کد فعال سازی به شماره  $phonenumber ,ارسال کردیم!لطفا آن را وارد کنید . "
 
         ThreadSendCode(this,phonenumber,this).start()
 

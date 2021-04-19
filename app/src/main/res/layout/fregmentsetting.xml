@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/logingradint"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_user"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:src="@drawable/loginlogo"
+       android:layout_gravity="center"
+
+        android:layout_marginTop="20dp"
+        />
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="100dp"
+    android:layout_height="40dp"
+    android:layout_gravity="center"
+    android:id="@+id/btn_changeprofile"
+    android:text="@string/change"
+    android:background="@drawable/loginbutton"
+    android:textSize="22sp"
+    android:textColor="#FFF"
+    android:gravity="center"
+    android:layout_margin="10dp"/>
+
+
+
+
+</LinearLayout>
