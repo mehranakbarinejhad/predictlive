@@ -4,8 +4,8 @@ import android.content.Context
 import androidx.appcompat.app.AppCompatActivity
 import com.liyanamarket.predictlive.dataclass.Users
 
-class Savelogininfo(private val activity: AppCompatActivity) {
-    private val pref=activity.getSharedPreferences("logininfo",Context.MODE_PRIVATE)
+class Savelogininfo(private val context: Context) {
+    private val pref=context.getSharedPreferences("logininfo",Context.MODE_PRIVATE)
     fun save(username:String,password:String)
     {
 

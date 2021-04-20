@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
   >
+
     <View
 
         android:layout_width="match_parent"
@@ -14,7 +14,7 @@
         />
 
         <de.hdodenhof.circleimageview.CircleImageView
-            android:id="@+id/img_user"
+            android:id="@+id/img_userprofile"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/loginlogo"
@@ -22,14 +22,14 @@
             android:layout_marginTop="30dp"
             />
         <TextView
-            android:id="@+id/name_user"
+            android:id="@+id/name_userprofile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/mehran_akbari"
             android:fontFamily="@font/andalus"
             android:textColor="#FFF"
             android:textSize="22sp"
-            android:layout_below="@id/img_user"
+            android:layout_below="@id/img_userprofile"
             android:layout_centerHorizontal="true"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="5dp"/>
@@ -149,3 +149,4 @@
 
 </RelativeLayout
     >
+

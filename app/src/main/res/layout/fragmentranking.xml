@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/relateiveparentranking"
     android:layout_width="match_parent"
-    android:visibility="invisible"
     android:layout_height="match_parent">
+
     <RelativeLayout
 
         android:layout_width="match_parent"
@@ -285,6 +285,5 @@
         android:id="@+id/recycler_ranking"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-
         android:layout_below="@id/section1ranking"/>
 </RelativeLayout>

@@ -13,6 +13,8 @@ import com.liyanamarket.predictlive.presenter.login.Presenter
 import com.liyanamarket.predictlive.presenter.login.Senddatatoview
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.fragmenthome.*
+import kotlinx.android.synthetic.main.homesection1.*
+import org.koin.android.ext.android.get
 
 class HomeFragment( val activity: AppCompatActivity):Fragment(),Senddatatoview {
 
@@ -26,13 +28,15 @@ class HomeFragment( val activity: AppCompatActivity):Fragment(),Senddatatoview {
 
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
+  override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
-                val username=activity.intent.getStringExtra("usernameloginuser").toString()
-                activity.name_user.text=activity.intent.getStringExtra("nameuser").toString()
+             val username=activity.intent.getStringExtra("usernameloginuser").toString()
+           activity.name_userprofile.text=activity.intent.getStringExtra("nameuser").toString()
             activity.score_text.text=activity.intent.getIntExtra("scoreloginuser",-1).toString()
-                Picasso.with(activity).load(activity.intent.getStringExtra("imageloginuser")).into(activity.img_user)
-                 Presenter(this).getusers("selectuser",username)
+
+val picasso=get<Picasso>()
+        picasso.load(activity.intent.getStringExtra("imageloginuser")).into(activity.img_userprofile)
+        Presenter(this).getusers("selectuser",username)
             
 
 
@@ -45,7 +49,7 @@ class HomeFragment( val activity: AppCompatActivity):Fragment(),Senddatatoview {
         {
            activity.intent.putExtra("imageloginuser",user[0].image)
         }
-        val score=activity.intent.getIntExtra("scoreloginuser",-1)
+       val score=activity.intent.getIntExtra("scoreloginuser",-1)
        if(score!=user[0].Score &&score!=-1)
        {
            activity.intent.putExtra("scoreloginuser",user[0].Score)

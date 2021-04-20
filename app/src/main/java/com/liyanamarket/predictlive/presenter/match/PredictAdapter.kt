@@ -2,19 +2,25 @@ package com.liyanamarket.predictlive.presenter.match
 
 import android.annotation.SuppressLint
 import android.content.Context
-import android.graphics.Color
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
+
 import androidx.recyclerview.widget.RecyclerView
 import com.liyanamarket.predictlive.R
 import com.liyanamarket.predictlive.dataclass.Match
 import com.liyanamarket.predictlive.dataclass.Predict
-import com.liyanamarket.predictlive.presenter.predict.Sendpredictlisttoview
+
 import com.liyanamarket.predictlive.view.thread.predict.ThreadInsertPredictuser
 import com.squareup.picasso.Picasso
+
+//import com.squareup.picasso.Picasso
+//import org.koin.standalone.KoinComponent
+//import org.koin.standalone.inject
+
 
 class PredictAdapter(
     var context: Context,
@@ -22,7 +28,7 @@ class PredictAdapter(
     var predictlist: List<Predict>
 ) :
     RecyclerView.Adapter<PredictAdapter.CustomViewholder>() {
-
+    //private val picasso:Picasso by inject()
     inner class CustomViewholder(itemview: View) : RecyclerView.ViewHolder(itemview) {
         val textstatus: TextView = itemview.findViewById(R.id.txt_status_predictrecyclerlist)
         val btnadd: Button = itemView.findViewById(R.id.btn_addpredict)
@@ -42,9 +48,11 @@ class PredictAdapter(
         val view =
             LayoutInflater.from(parent.context).inflate(R.layout.predictrecyclerlist, parent, false)
         return CustomViewholder(view)
+
     }
 
     override fun onBindViewHolder(holder: CustomViewholder, position: Int) {
+
         val pref=context.getSharedPreferences("saveusername", Context.MODE_PRIVATE)
         val username=pref.getString("username","").toString()
         if (predictlist.count() == 0) {
@@ -122,7 +130,9 @@ class PredictAdapter(
         }
 
         Picasso.with(context).load(listmatch[position].hometeam[0].logo).into(imagehome)
+       //picasso.load(listmatch[position].hometeam[0].logo).into(imagehome)
         Picasso.with(context).load(listmatch[position].guestteam[0].logo).into(imageguest)
+       // picasso.load(listmatch[position].guestteam[0].logo).into(imageguest)
         txthometeamname.text = listmatch[position].hometeam[0].name
         val txthometeamnamelenght=txthometeamname.text.length
         when {

@@ -28,7 +28,7 @@ class HomeActivity : AppCompatActivity() {
         bottomnavigationitemclick()
 
         fab.setOnClickListener {
-            val intent=Intent(this, PredictActivity::class.java)
+           val intent=Intent(this, PredictActivity::class.java)
             startActivity(intent)
         }
 
@@ -50,10 +50,7 @@ class HomeActivity : AppCompatActivity() {
     private fun addfragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction().replace(R.id.frm_fragment, fragment).commit()
     }
-    private fun closeFragment(fragment: Fragment){
-        supportFragmentManager.beginTransaction().remove(fragment).commit()
 
-    }
 
     private fun bottomnavigationitemclick(){
         bottomnavigationview.setOnNavigationItemSelectedListener {
@@ -62,7 +59,7 @@ class HomeActivity : AppCompatActivity() {
                 R.id.mnuhome -> {
 
                     addfragment(HomeFragment(this))
-                    bottomnavigationview.menu.getItem(0).isEnabled = false
+                    bottomnavigationview.menu.getItem(0).isEnabled = true
                     bottomnavigationview.menu.getItem(1).isEnabled = true
                     bottomnavigationview.menu.getItem(3).isEnabled = true
                     bottomnavigationview.menu.getItem(4).isEnabled = true

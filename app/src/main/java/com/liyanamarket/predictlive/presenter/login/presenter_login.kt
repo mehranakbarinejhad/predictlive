@@ -11,10 +11,7 @@ import retrofit2.Response
 
 class Presenter(private val senddatatoview: Senddatatoview):Callback<List<Users>> {
     fun getusers(action:String,username:String){
-        val connect=ConnectToApi()
-
-
-        connect.getdata().getusers(action,username).enqueue(this)
+            ConnectToApi().getdata().getusers(action,username).enqueue(this)
     }
     override fun onResponse(call: Call<List<Users>>, response: Response<List<Users>>) {
         val data=response.body()

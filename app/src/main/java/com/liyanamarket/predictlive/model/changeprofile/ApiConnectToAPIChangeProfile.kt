@@ -1,6 +1,7 @@
 package com.liyanamarket.predictlive.model.changeprofile
 
 import com.liyanamarket.predictlive.dataclass.changeprofile
+import com.squareup.picasso.Picasso
 import retrofit2.Call
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
